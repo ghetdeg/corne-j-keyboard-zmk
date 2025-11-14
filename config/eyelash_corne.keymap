@@ -136,10 +136,10 @@
 
         nav_layer {
             bindings = <
-&none  &kp RIGHT_GUI  &kp RIGHT_ALT  &none      &none           &none                  &none         &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)     &kp LC(Z)  &none
-&none  &kp LEFT_WIN   &kp LEFT_ALT   &kp LCTRL  &kp LEFT_SHIFT  &none           &none  &none  &none  &caps_word  &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none
-&none  &kp RIGHT_GUI  &kp RIGHT_ALT  &none      &none           &none  &none           &none         &kp INSERT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &none
-                                     &none      &none           &none                                &trans      &trans     &trans
+&none  &kp RIGHT_GUI  &kp RIGHT_ALT  &none      &none           &none                  &none         &kp LC(Y)   &kp LC(V)      &kp LC(C)      &kp LC(X)     &kp LC(Z)  &none
+&none  &kp LEFT_WIN   &kp LEFT_ALT   &kp LCTRL  &kp LEFT_SHIFT  &none           &none  &none  &none  &caps_word  &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none
+&none  &kp RIGHT_GUI  &kp RIGHT_ALT  &none      &none           &none  &none           &none         &kp INSERT  &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &none
+                                     &none      &none           &none                                &kp ENTER   &kp BACKSPACE  &kp DEL
             >;
 
             label = "NAV";
