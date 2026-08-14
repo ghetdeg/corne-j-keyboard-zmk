@@ -8,16 +8,33 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: ghetdeg
       url-base: https://github.com/ghetdeg
+    - name: cormoran
+      url-base: https://github.com/cormoran
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: cormoran
+      revision: v0.3-branch+dya
       import: app/west.yml
+    - name: zmk-behavior-runtime-sensor-rotate
+      remote: cormoran
+      revision: main
+    - name: zmk-module-ble-management
+      remote: cormoran
+      revision: zmk-v0.3.0.0
+    - name: zmk-module-battery-history
+      remote: cormoran
+      revision: main
+    - name: zmk-module-settings-rpc
+      remote: cormoran
+      revision: main
+    - name: zmk-module-runtime-input-processor
+      remote: cormoran
+      revision: zmk-v0.3.0.0
     - name: hammerbeam-slideshow
       remote: ghetdeg
-      revision: df4da3b919f6cf979959dd4be1dc31fa2a77aa21
+      revision: 7567aab7b6cc740f7998eea7a817a08260a61f7d
   self:
     path: config
