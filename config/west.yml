@@ -18,6 +18,6 @@ manifest:
       import: app/west.yml
     - name: hammerbeam-slideshow
       remote: ghetdeg
-      revision: addaf2a220f04f70a9c26c7d341bbaaf82135d85
+      revision: df4da3b919f6cf979959dd4be1dc31fa2a77aa21
   self:
     path: config
