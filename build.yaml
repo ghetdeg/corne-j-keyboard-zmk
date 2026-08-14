@@ -1,22 +1,22 @@
 ---
 include:
   # Plain USB HID build: recommended for BIOS/UEFI and normal use.
-  - board: eyelash_corne_left
+  - board: eyelash_corne_left//zmk
     shield: nice_view
     artifact-name: eyelash_corne_left
     #snippet: zmk-usb-logging    # Uncomment to log over USB.
-  - board: eyelash_corne_right
+  - board: eyelash_corne_right//zmk
     shield: nice_view_custom
     artifact-name: eyelash_corne_right
     #snippet: zmk-usb-logging
   # Optional ZMK Studio build. Its extra USB-UART interface may be less
   # compatible with older pre-boot USB implementations than the plain build.
-  - board: eyelash_corne_left
+  - board: eyelash_corne_left//zmk
     shield: nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: eyelash_corne_studio_left
-  - board: eyelash_corne_left
+  - board: eyelash_corne_left//zmk
     shield: settings_reset
     #snippet: zmk-usb-logging
  

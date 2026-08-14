@@ -14,9 +14,7 @@ manifest:
       revision: main
     - name: zmk
       remote: zmkfirmware
-      # Pin the revision so upstream changes cannot unexpectedly break builds.
-      # This commit predates the last successful firmware build in this repo.
-      revision: f9be3ed9c08b35b1b86df24c0f04913f3b5e50f5
+      revision: main
       import: app/west.yml
     - name: hammerbeam-slideshow
       remote: ghetdeg
